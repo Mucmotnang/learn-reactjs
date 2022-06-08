@@ -1,10 +1,12 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import React from 'react';
+import TodoFeature from './features/Todo';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Tuan Phan
@@ -17,7 +19,8 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <TodoFeature />
     </div>
   );
 }
